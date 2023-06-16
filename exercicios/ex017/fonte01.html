@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada, px, pt, pc)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            Recomendaçao usar PX ou EM
+            */
+            font-size: 16px;
+            font: weight 1em;
+            font-style: italic; /*Deixa o texto em italico*/
+            text-decoration: underline; /*Deixa o texto sublinhado*/
+
+            /*Valores pesos = leghter normal bold bolder*/
+
+            /*weight (PESO) width (LARGURA) height (ALTURA) */
+        }
+        h1{
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em 'Word Sans', sans-serif
+
+        } 
+        /*Acesse o site CSS Web Safe Fonts Combinations para ver as combinaçoes das fontes */
+        /*Nem todo tipo de dispositivo aceita qualquer fonte, por isso se usa no final da combinaçao as fontes "Sans-serif, serif, monoespace" para ser compativel e assim o dispositivo pegar qualquer fonte dentre essas 3*/
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolor minus atque? Illum totam facilis recusandae animi natus in eum deleniti possimus aspernatur unde tempore vel, officiis eius mollitia repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum tempore voluptatem quod voluptas. Ad dolore at ab enim sunt voluptatibus totam fuga sequi nostrum ipsa. Vel illum magni hic iste?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse eius, doloremque cum aliquam molestias nemo doloribus ipsa molestiae tempora quam ducimus quisquam dicta, perferendis harum possimus tempore? Error, sequi asperiores.</p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, molestias quae quam quisquam repellat consequuntur quaerat tenetur. Earum quam, rerum distinctio fugiat sequi quidem officia perspiciatis repellat error cum! Aut.</p>
+    
+</body>
+</html>

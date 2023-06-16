@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte externa</title>
+    <style>
+        @font-face {
+            font-family: 'Love' ;
+            src: url('love\ story\ ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Armas';
+            src: url('fonts/superbrigade3d.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            text-align: justify;
+            
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att(Apple Advenced Typography)
+                - svg
+            */
+        }
+        h1{
+            font-family: 'Armas', Times, serif;
+            font-size: 3em;
+            text-align: center;
+        }
+        p{
+            font-family: 'Love', Times, serif;
+            font-size: 4em;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi esse atque quia repellat doloribus? Totam iure ab, unde sint excepturi, est corrupti nihil quibusdam dicta dignissimos, consequatur soluta assumenda? Facilis?</p>
+    
+</body>
+</html>
