@@ -53,7 +53,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2vw;
+    font-size: 3.2vw;
 }
 
 .normal{
@@ -68,7 +68,8 @@ section{
 
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.314);
-    width: 400px;
+    display: inline-block;
+    padding: 8px;
 }
 
 footer{
