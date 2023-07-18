@@ -13,7 +13,26 @@ Telas grandes: acima de 1200px
 
 
 @media print { /*IMPRESSORA*/
-    
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* BACKGROUND NAO FUNCIONA NA IMPRESSORA */
+
+    main{
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    main h1{
+        color: black;
+        text-shadow: none;
+    }
 }
 
 @media  screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
@@ -43,6 +62,10 @@ Telas grandes: acima de 1200px
 @media screen and (min-width: 1201px) { /*TELAS GRANDES*/
     body{
         background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main{
+        width: 700px;
     }
 
     #phone{display: none;}
